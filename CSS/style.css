@@ -1,0 +1,57 @@
+@media screen and (max-width : 840px) {
+    .Container p {
+        font-size: 33px;
+        font-family: Digital;
+        color: red;
+        padding-left: 10px;
+    }
+
+    .AM,
+    .PM {
+        color: rgba(94, 181, 181, 0.623);
+        font-size: 37px;
+        display: block;
+        width: 80px;
+        text-align: center;
+    }
+
+    p {
+        width: 320px;
+    }
+}
+@media screen and (min-width:841px) {
+    .Container p {
+        font-size: 90px;
+        font-family: Digital;
+        color: red;
+    }
+    
+    .AM,
+    .PM {
+        color: rgba(94, 181, 181, 0.623);
+        font-size: 70px;
+        display: block;
+        width: 110px;
+        text-align: center;
+    }
+    
+    p {
+        width: 650px;
+    }
+}
+body {
+    background-color: black;
+}
+
+@font-face {
+    font-family: Digital;
+    src: url("../Fonts/Orbitron-Bold.ttf");
+}
+
+.Container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
